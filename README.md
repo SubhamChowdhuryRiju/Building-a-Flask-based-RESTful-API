@@ -5,8 +5,11 @@
 # **Staring Steps:**
 
 **Step 1:**  Delete the venv folder.
+
 **Step 2:** Then create new virtual environment by using the command prompt: **python -m venv venv**.
+
 **Step 3:** Then install flask using the cammand: **pip3 install flask**.
+
 **Step 4:** Then run the app.py file.
 
 
