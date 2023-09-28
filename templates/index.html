@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EdTech Courses</title>
+    <!-- Include Bootstrap CSS for styling -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Set favicon for the page -->
+    <link rel="shortcut icon" href="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/42/220ff87e11438bb4b2a2539f70bba5/EdTech-Cover-01.jpg?auto=format%2Ccompress&dpr=1" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Margdarshan EdTech Platform - Courses</h1>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Available Courses</h2>
+                <!-- This is where the list of courses will be displayed -->
+                <ul id="courses">
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Create New Course</h2>
+                <form id="create-course-form">
+                    <div class="form-group">
+                        <label for="title">Title:</label>
+                        <input type="text" class="form-control" id="title" name="title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description:</label>
+                        <textarea class="form-control" id="description" name="description" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create Course</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Update Existing Course</h2>
+                <form id="update-course-form">
+                    <div class="form-group">
+                        <label for="update-id">Course ID:</label>
+                        <input type="text" class="form-control" id="update-id" name="update-id" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="update-title">New Title:</label>
+                        <input type="text" class="form-control" id="update-title" name="update-title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="update-description">New Description:</label>
+                        <textarea class="form-control" id="update-description" name="update-description" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Update Course</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Delete Course</h2>
+                <form id="delete-course-form">
+                    <div class="form-group">
+                        <label for="delete-id">Course ID:</label>
+                        <input type="text" class="form-control" id="delete-id" name="delete-id" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Delete Course</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include the JavaScript file (index.js) for client-side functionality -->
+    <script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
+</body>
+</html>
