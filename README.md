@@ -2,14 +2,22 @@
 
 Tech Stack:  HTML5, Bootstrap, JavaScript, Flask, RESTful-API
 
-**To Run the Application:**
+# **Staring Steps:**
+
+**Step 1:**  Delete the venv folder
+**Step 2:** Then create new virtual environment by using the command prompt: **python -m venv venv**
+**Step 3:** Then install flask using the cammand: **pip3 install flask**
+**Step 4:** Then run the app.py file
+
+
+# **To Run the Application:**
 
 Only Run the app.py python file.
 Default port is 5000
 The database that is used is SQLite3 (integrated database of python) and the db file has also been updated.
 Error handling for common scenarios such as course not found, invalid input, and server errors is also done.
 
-**Routes (Tested using Postman) :**
+# **Routes (Tested using Postman) :**
 
 GET /courses: This route should return a list of available courses in JSON format.
 
