@@ -2,7 +2,7 @@
 
 **Tech Stack:**  HTML5, Bootstrap, JavaScript, Flask, RESTful-API
 
-# **Staring Steps:**
+# **Starting Steps:**
 
 1.**Step 1:**  Delete the venv folder.
 
