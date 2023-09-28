@@ -19,12 +19,12 @@
 
 # **Routes (Tested using Postman) :**
 
-1. GET /courses: This route should return a list of available courses in JSON format.
+1. **GET /courses:** This route should return a list of available courses in JSON format.
 
-2. GET /course/<course_id>: This route should return details about a specific course identified by course_id. 
+2. **GET /course/<course_id>:** This route should return details about a specific course identified by course_id. 
 
-3. POST /course: This route should allow the creation of new courses. Users should be able to submit course data (e.g., title, description) via JSON and receive a response indicating success or failure. 
+3. **POST /course:** This route should allow the creation of new courses. Users should be able to submit course data (e.g., title, description) via JSON and receive a response indicating success or failure. 
 
-4. PUT /course/<course_id>: This route should allow updating the details of an existing course identified by course_id. 
+4. **PUT /course/<course_id>:** This route should allow updating the details of an existing course identified by course_id. 
 
-5. DELETE /course/<course_id>: This route should allow the deletion of a course identified by course_id.
+5. **DELETE /course/<course_id>:** This route should allow the deletion of a course identified by course_id.
