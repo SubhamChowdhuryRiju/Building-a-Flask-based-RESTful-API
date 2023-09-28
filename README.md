@@ -12,10 +12,10 @@
 
 # **To Run the Application:**
 
-Only Run the app.py python file.
-Default port is 5000
-The database that is used is SQLite3 (integrated database of python) and the db file has also been updated.
-Error handling for common scenarios such as course not found, invalid input, and server errors is also done.
+1. Only Run the app.py python file.
+2. Default port is 5000.
+3. The database that is used is SQLite3 (integrated database of python) and the db file has also been updated.
+4. Error handling for common scenarios such as course not found, invalid input, and server errors is also done.
 
 # **Routes (Tested using Postman) :**
 
